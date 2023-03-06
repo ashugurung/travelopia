@@ -1,0 +1,191 @@
+body {
+    text-align: center;
+    font-family: "Montserrat";
+  }
+
+#title {
+    background-image: url(images/title-image.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+/* NAV SECTION */
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 3% 10% 7%;
+    
+}
+
+.nav-item{
+    padding: 0 18px; /* top/bottom = 0, L/R = 18px*/
+}
+
+nav .navbar-nav li a{
+  color: white;
+  font-size: 1.2rem;
+  }
+
+/* Headings */
+
+h1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.main {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.intro {
+    padding-bottom: 18px; 
+  }
+
+  /** Middle Section **/
+#about {
+  padding: 7% 10%;
+  margin: 0 auto;
+}
+
+h2{
+  font-family: "ubuntu";
+  line-height: 2.0;
+  margin: 5px; 
+}
+
+.images{
+    width: 50%;
+  }
+  
+.abt-img {
+    width: 100%;
+    height: 200px;
+  }
+
+.abt-img1{
+    width: 100%;
+    height: 200px;
+  }
+
+  /* ---- FIGURES ----- */
+  h3{
+    color: #185274;
+    font-weight: 600;
+  }
+
+  /*------- Holiday Type -------*/
+#package {
+  background-color: #EDF1D6;
+  padding: 5% 7%;
+}
+
+.holiday-title{
+  font-size: 3.0rem;
+}
+
+.card{
+  width: 20rem;
+  background-color: #40513B;
+  color: white;
+  border: none;
+  position: relative;
+}
+
+.deal-column {
+  width: 25rem;
+}
+
+.holiday-image {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.holiday-image:hover{
+  opacity: 0.5;
+}
+
+.holiday-text {
+  color: #fff;
+  text-shadow: black 1px 0 10px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.deal-column .card .holiday-para {
+  padding: 10px 10px 0px;
+  text-align: center;
+}
+
+.deal-column{
+  padding: 2%;
+  justify-content: center;
+}
+
+/*---------------- Guest Reviews --------- */
+#reviews {
+   color: #40513B;
+}
+
+.review-text {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.review-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+/*---------------- Press -------------*/
+#press {
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 13%;
+  margin: 20px 20px 50px;
+}
+/*----------------Footer-------------*/
+
+#footer{
+    padding: 3% 10%;
+    background-color: #40513B;
+    color: #fff;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*--------Media Query--------------------*/
+@media (max-width: 991px) {
+
+  body{
+      overflow-x: hidden;
+  }
+
+  #title {
+      text-align: center;
+      
+  }
+}
